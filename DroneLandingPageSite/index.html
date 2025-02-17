@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOB46 Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+            }
+        }
+    </script> -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body onLoad="window.scroll(0, 0)">
+    <div class="main__wrapper">
+        <nav class="nav">
+            <div class="nav__wrapper">
+                <div class="logo"><img src="img/Logo.svg" alt="logo"></div>
+                <ul class="sidebar__wrapper">
+                    <li onclick="hideSideBar()" class="closeSidemenu"><a href="#" class="make-me-black"><img src="img/proicons_cancel.svg" alt="cancel"></a></li>
+                    <li><a href="#ModelBob46" class="make-me-black nav__link model active">Model BOB46</a></li>
+                    <li><a href="#Highlights" class="make-me-black nav__link highlights">Highlights</a></li>
+                    <li><a href="#Specifications" class="make-me-black nav__link specification">Specifications</a></li>
+                    <li><a href="#Showcase" class="make-me-black nav__link showcase">Showcase</a></li>
+                    <li><a href="#Preorder" class="make-me-black nav__link preorder">Preorder</a></li>
+                    <li><a href="#" class="make-me-black my-cart">My Cart</a></li>
+                    <li class="user__sidebar"><a href="#" class="user__sidebar__log-in log in">Log In</a></li>
+                    <li><a href="#" class="make-me-black"><img src="img/flag_de-4x3.svg" class="change-language-image-toggle" alt="de-flag"></a></li>
+                </ul>
+                <ul class="links__wrapper">
+                    <li><a class="hideOnMobile nav__link page model active" href="#ModelBob46">Model BOB46</a></li>
+                    <li><a class="hideOnMobile nav__link highlights" href="#Highlights">Highlights</a></li>
+                    <li><a class="hideOnMobile nav__link specification" href="#Specifications">Specifications</a></li>
+                    <li><a class="hideOnMobile nav__link showcase" href="#Showcase">Showcase</a></li>
+                    <li><a class="hideOnMobile nav__link preorder" href="#Preorder">Preorder</a></li>
+                </ul>
+                <ul class="user-section__wrapper">
+                    <li class="hideOnMobile"><a href="#" class="language hideOnMobile"><img src="img/flag_de-4x3.svg" class="change-language-image-toggle" alt="de-flag"></a></li>
+                    <li class="hideOnMobile"><a href="#" class="cart hideOnMobile"><img src="img/mdi_cart.svg" alt="cart"></a></li>
+                    <li class="hideOnMobile"><a href="#" class="user hideOnMobile"><img src="img/mdi_user.svg" alt="user"></a></li>
+                    <li class="burger-menu" onclick="showSideBar()"><a href="#"><img src="img/stash_burger-classic.svg" alt="burger"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper__no-nav">
+            <section id="ModelBob46">
+                <div class="without-main-image__wrapper">
+                    <div class="two-main-text__wrapper">
+                        <div class="main-text__wrapper">
+                            <h1>THE BEST 6 INCH CINEMATIC DRONE</h1>
+                            <h2>WITH THE LATEST DJI O4 AIR UNIT PRO</h2>
+                        </div>
+                        <div class="image-drone-main__wrapper-double disable-drone-main-phone"></div>
+                        <!-- <div class="image-drone-main__wrapper__responsive"><img src="img/Bob46_2 1.svg" alt="drone" loading="lazy"></div> -->
+                        <p>Experience the next generation of pre-built FPV drones with EliDrones’ latest offering, setting a new standard in Bind-And-Fly simplicity and performance.</p>
+                    </div>
+                    <div class="preorder-main__wrapper">
+                        <h3>CLICK TO PREORDER NOW</h3>
+                        <h4>ONLY FROM $669.99</h4>
+                        <button class="preorder-button__product">PREORDER</button>
+                    </div>
+                </div>
+                <!-- <img src="img/Bob46_2 1.svg" alt="drone" loading="lazy"> -->
+                <div class="image-drone-main__wrapper disable-drone-main"></div>
+            </section>
+            <section id="Highlights">
+                <div class="Highlights__wrapper">
+                    <h1 class="h1-highlights">HIGHLIGHTS:</h1>
+                    <!-- <div class="text-carousel-highlights__wrapper"> -->
+                        <div class="down-highlights__wrapper">
+                            
+                                <!-- <div class="carousel-control-elements__wrapper">
+                                    <button class="carousel-control-prev carousel-control" type="button" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                              <img src="./img/Vector_arrow_left.svg" alt="prev" class="carousel-control-prev-icon" loading="lazy">
+                                    </button>
+                                    <div class="carousel-item active make-me-gray__img-carousel">
+                                            <img src="img/Bob46_1 1 1.svg" class="main-image__carousel" loading="lazy">
+                                    </div>
+                                    <button type="button" class="carousel-control-next carousel-control" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                        <img src="./img/Vector_arrow_right.svg" alt="next" class="carousel-control-next-icon" loading="lazy">
+                                    </button>
+                                    </div class="carousel-control-elements__wrapper">
+                                    <ul class="carousel-indicators mySwiper">
+                                        <li data-target="#carouselExampleIndicators" class="li-element__carousel active" onclick="thumbsChange(0)" data-slide-to="0" class="active"><img src="img/Bob460.svg" loading="lazy"></li>
+                                        <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(1)" data-slide-to="1"><img src="img/Bob461.svg" loading="lazy"></li>
+                                        <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(2)" data-slide-to="2"><img src="img/Bob462.svg"></li>
+                                        <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(3)" data-slide-to="3"><img src="img/Bob463.svg" loading="lazy"></li>
+                                        <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(4)" data-slide-to="4"><img src="img/Bob464.svg" loading="lazy"></li>
+                                    </ul>
+                                </div> -->
+                                <div class="text-highlights__wrapper">
+                                    <div class="arrow-image-down-highlights__wrapper">
+                                        <img src="./img/BOB4611_1.svg" alt="bob" loading="lazy" class="bob-down-hightlights">
+                                        <div class="arrow-text-highlights__wrapper first-text-highlights">
+                                            <img src="./img/tdesign_arrow-right.svg" class="arrow-h4__highlights" loading="lazy">
+                                            <h4>No props in view from 40° degrees in both FPV feed and Action camera feed.</h4>
+                                        </div>
+                                    </div>
+                                    <div class="arrow-image-down-highlights__wrapper">
+                                        <div class="arrow-text-highlights__wrapper second-text-highlights">
+                                            <img src="./img/tdesign_arrow-right.svg" class="arrow-h4__highlights" loading="lazy">
+                                            <h4>Front facing and reversible Action camera mounting options.</h4>
+                                        </div>
+                                        <img src="./img/BOB46_Dual_1.svg" alt="bob" loading="lazy" class="bob-down-hightlights">
+                                    </div>
+                                    <div class="arrow-image-down-highlights__wrapper">
+                                        <img src="./img/BOB46_Extended_1.svg" alt="bob" loading="lazy" class="bob-down-hightlights">
+                                        <div class="arrow-text-highlights__wrapper third-text-highlights">
+                                            <img src="./img/tdesign_arrow-right.svg" class="arrow-h4__highlights" loading="lazy">
+                                            <h4>Larger body length to allow for bigger batteries for more flight time.</h4>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="arrow-image-down-highlights__wrapper">
+                                        <div class="arrow-text-highlights__wrapper fourth-text-highlights">
+                                            <img src="./img/tdesign_arrow-right.svg" class="arrow-h4__highlights" loading="lazy">
+                                            <h4>Small size for easy transport for content creation in remote locations.</h4>
+                                        </div>
+                                        <img src="./img/BOB46_Protective_1.svg" alt="bob" loading="lazy" class="bob-down-hightlights">
+                                    </div>
+                                    <div class="arrow-image-down-highlights__wrapper">
+                                        <img src="./img/BOB46_Protective_2.svg" alt="bob" loading="lazy" class="bob-down-hightlights">
+                                        <div class="arrow-text-highlights__wrapper fifth-text-highlights">
+                                            <img src="./img/tdesign_arrow-right.svg" class="arrow-h4__highlights" loading="lazy">
+                                            <h4>Encased body to protect electronics from dirt and debris when filming.</h4>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="arrow-image-down-highlights__wrapper">
+                                        <div class="arrow-text-highlights__wrapper sixth-text-highlights">
+                                            <img src="./img/tdesign_arrow-right.svg" class="arrow-h4__highlights" loading="lazy">
+                                            <h4>Optional hand catch stick for seamless flight-to-handheld shots.</h4>
+                                        </div>
+                                        <img src="./img/BOB46_Optional_1.svg" alt="bob" loading="lazy" class="bob-down-hightlights">
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </section>
+            <section id="Specifications">
+                <h1 class="h1-specifications">SPECIFICATIONS:</h1>
+                <div class="text-image-specifications__wrapper">
+                    <div class="text-specifications__wrapper">
+                        <div class="text-specifications__wrapper">
+                            <div class="text-specifications-one-row__wrapper">
+                                <div class="dot-with-text__specifications">
+                                    <div class="dot"></div><h4 class="text-h4-show-more__specifications">FC: BLITZ Mini F722</h4>
+                                </div>
+                                <button class="plus-specifications">
+                                    <img class="plus-sign-specifications__wrapper" src="img/plus.svg" alt="plus"></img><img class="minus-sign-specifications__wrapper hidden" src="img/minus.svg" alt="plus"></img>
+                                </button>
+                            </div>
+                            <div class="more-info-specifications info-specifications1 hidden">MCU: STM32 F722<br>
+                                Gyro: ICM42688<br>
+                                Barometer: DPS310<br>
+                                OSD Chip: AT7456<br>
+                                Flash: 8MB (Blackbox flash)<br>
+                                UARTS: 6<br>
+                                I2C serial: SDA/SLA pads<br>
+                                LED controller: Yes<br>
+                                Beeper pad: Yes<br>
+                            </div>
+                        </div>
+                        <div class="text-specifications__wrapper">
+                            <div class="text-specifications-one-row__wrapper">
+                                <div class="dot-with-text__specifications">
+                                    <div class="dot"></div><h4 class="text-h4-show-more__specifications">ESC: BLITZ Mini E55 4-IN-1 ESC</h4>
+                                </div>
+                                <button class="plus-specifications">
+                                    <img class="plus-sign-specifications__wrapper" src="img/plus.svg" alt="plus"></img><img class="minus-sign-specifications__wrapper hidden" src="img/minus.svg" alt="plus"></img>
+                                </button>
+                            </div>
+                            <div class="more-info-specifications info-specifications2 hidden">
+                                Input Voltage: 2-6S<br>
+                                Max. Continuous Current: 55A<br>
+                                Max. Burst Current: 65A <br>
+                                MCU: G071<br>
+                                BEC: No<br>
+                                Firmware: BLHeli32<br>
+                                Current Sensor: Yes<br>
+                                Telemetry: Supported<br>
+                            </div>
+                        </div>
+                        <div class="text-specifications__wrapper">
+                            <div class="text-specifications-one-row__wrapper">
+                                <div class="dot-with-text__specifications">
+                                    <div class="dot"></div><h4 class="text-h4-show-more__specifications">Video Transmission: DJI O4 Air Unit Pro</h4>
+                                </div>
+                                <button class="plus-specifications">
+                                    <img class="plus-sign-specifications__wrapper" src="img/plus.svg" alt="plus"></img><img class="minus-sign-specifications__wrapper hidden" src="img/minus.svg" alt="plus"></img>
+                                </button>
+                            </div>
+                            <div class="more-info-specifications info-specifications3 hidden">
+                                Image Sensor: 1/1.3-inch CMOS Sensor<br>
+                                Lens: FOV: 155°<br>
+                                - The equivalent focal length: 12 mm<br>
+                                - Aperture: f/2.8<br>
+                                - Focus: 0.6 m to ∞<br>
+                                ISO Range: 100-25600 (Auto)/100-25600 (Manual)<br>
+                                Video Resolution: <br>
+                                - 4K (4:3): 3840×2880@30/48/50/60fps<br>
+                                - 4K (16:9): 3840×2160@30/48/50/60/100/120fps<br>
+                                - 2.7K (4:3): 2888×2016@30/48/50/60fps<br>
+                                - 2.7K (16:9): 2688×1512@30/48/50/60/100/120fps<br>
+                                - 1080p (4:3): 1440×1080@30/48/50/60/100/120fps<br>
+                                - 1080p (16:9): 1920×1080@30/48/50/60/100/120fps<br>
+                                Video Format: MP4<br>
+                                Max Video Bitrate: 130 Mbps<br>
+                                Color Mode: Normal Mode; D-Log M Internal Memory: 4GB<br>
+                                Supported SD cards: microSD cards (max. 512GB)<br>
+                            </div>
+                        </div>
+                        <div class="text-specifications__wrapper">
+                            <div class="text-specifications-one-row__wrapper">
+                                <div class="dot-with-text__specifications">
+                                    <div class="dot"></div><h4 class="text-h4-show-more__specifications">Motor: XING2 2207 1750KV  motors</h4>
+                                </div>
+                                <button class="plus-specifications">
+                                    <img class="plus-sign-specifications__wrapper" src="img/plus.svg" alt="plus" loading="lazy"></img><img class="minus-sign-specifications__wrapper hidden" src="img/minus.svg" alt="plus" loading="lazy"></img>
+                                </button>
+                            </div>
+                            <div class="more-info-specifications info-specifications4 hidden">
+                                KV: 1750KV<br>
+                                Weight(included wire): 30.5g<br>
+                                Dimension: φ29*19.25mm<br>
+                                Interphase Resistance: 74.23mΩ<br>
+                                Input Volts: 25.2V / 16.8V<br>
+                                Peak Current: 36.3A / 46.05A<br>
+                                Max Watt: 898W / 706.9W<br>
+                                Mounting Holes: 16*16 φ3mm<br>
+                                Rotor Specifications: Unibell<br>
+                                Shaft Diameter: 5mm<br>
+                                Shaft Protruding Length: 13.5mm<br>
+                                Lead: 160mm/20AWG<br>
+                                Magnet: N52H Curved<br>
+                                Configuration: 12N14P<br>
+                            </div>
+                        </div>
+                        <div class="text-after-show-more__wrapper">
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more1">Weight: 455±5g</h4>
+                            </div>
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more2">Takeoff Weight: Approx.697±5g (With 6S 1480mAh)</h4>
+                            </div>
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more3">Dimensions (L×W×H): 181*135*44mm</h4>
+                            </div>
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more4">Max. Speed: 170 km/h</h4>
+                            </div>
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more5">Max.Takeoff Altitude: 7000 m</h4>
+                            </div>
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more6">Max. Hover Time: Approx. 13 mins (6S 1480mAh)</h4>
+                            </div>
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more7">Max. Wind Speed Resistance: Level 7</h4>
+                            </div>
+                            <div class="after-show-more__element">
+                                <div class="dot-gray"></div><h4 class="text-h4-after-show-more__specifications after-show-more8">Operating Temperature: -20° to 40° C</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="./img/Bob46_9 1.svg" alt="drone" loading="lazy"> -->
+
+                    <div class="image-drone-specifications__wrapper">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-control-elements__wrapper">
+                                <button class="carousel-control-prev carousel-control" type="button" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"><img src="./img/Vector_arrow_left.svg" alt=""></span> -->
+                                            <!-- <div class="carousel-control-prev-icon"></div> -->
+                                            <img src="./img/Vector_arrow_left.svg" alt="prev" class="carousel-control-prev-icon" loading="lazy">
+                                </button>
+                                <div class="carousel-item active make-me-gray__img-carousel">
+                                        <img src="img/Bob460.svg" class="main-image__carousel" loading="lazy">
+                                </div>
+                                <button type="button" class="carousel-control-next carousel-control" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"><img src="./img/Vector_arrow_right.svg" alt=""></span> -->
+                                    <!-- <div class="carousel-control-next-icon"></div> -->
+                                    <img src="./img/Vector_arrow_right.svg" alt="next" class="carousel-control-next-icon" loading="lazy">
+                                </button>
+                                </div>
+                                <ul class="carousel-indicators mySwiper">
+                                    <li data-target="#carouselExampleIndicators" class="li-element__carousel active" onclick="thumbsChange(0)" data-slide-to="0"><img src="img/Bob460.svg" loading="lazy" /></li>
+                                    <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(1)" data-slide-to="1"><img src="img/Bob461.svg" loading="lazy"></li>
+                                    <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(2)" data-slide-to="2"><img src="img/Bob462.svg"></li>
+                                    <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(3)" data-slide-to="3"><img src="img/Bob463.svg" loading="lazy"></li>
+                                    <li data-target="#carouselExampleIndicators" class="li-element__carousel" onclick="thumbsChange(4)" data-slide-to="4"><img src="img/Bob464.svg" loading="lazy"></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>    
+            </section>
+            <section id="Showcase">
+                <!-- <h1 class="h1-showcase">SHOWCASE:</h1> -->
+                 <div class="Showcase__wrapper">
+                    <div class="video-text-showcase__wrapper">
+                       <video src="img/c10d89a7-e875-4708-982d-d7dac112e400.mp4" autoplay="" loop="" muted="" playsinline="" preload="metadata" loading="lazy" class="video-showcase" type="video/mp4"></video>
+                       <div class="text-h1-h4-showcase__wrapper">
+                           <h1 class="h1-showcase">The BOB46 doesn't compromise in any areas.</h1>
+                           <h4 class="h4-showcase">It allows the content creators to have maximum options to be used in almost every scenario. </h4>
+                       </div>
+                    </div>
+                 </div>
+            </section>
+            <section id="Preorder">
+                <!-- <div class="Preorder__wrapper"> -->
+                    <div class="text-preorder__wrapper">
+                        <h1>FILL THE FORM</h1>
+                        <h4>TO JOIN THE WAITING LIST</h4>
+                    </div>
+                    <div class="form-image-preorder__wrapper">
+                        <form action="#" class="form-preorder" method="POST">
+                            <div class="two-row-one-column-form-preorder__wrapper">
+                                <div class="row-column-form-preorder">
+                                    <label for="Name">First Name: *</label>
+                                    <input type="text" id="Name" placeholder="Jacob..." autocomplete="on" pattern="[\p{L}\s]+" required>
+                                </div>
+                                <div class="row-column-form-preorder row-column-form-preorderTwo">
+                                    <label for="Surname">Second Name: *</label>
+                                    <input type="text" id="Surname" placeholder="William..." autocomplete="on" pattern="[\p{L}\s]+" required>
+                                </div>
+                            </div>
+                            <div class="two-row-two-column-form-preorder__wrapper">
+                                <div class="row-column-form-preorder row-column-form-preorderThird">
+                                    <label for="Number">Contact Number: *</label>
+                                    <input type="text" id="Number" placeholder="(+49) 1...." required>
+                                </div>
+                                <div class="row-column-form-preorder row-column-form-preorderFour">
+                                    <label for="Email">E-Mail: *</label>
+                                    <input type="email" id="Email" placeholder="example@gmail.com..." autocomplete="on" required>
+                                </div>
+                            </div>
+                            <div class="additional-info-privacy-preorder__wrapper">
+                                <div class="additional-info-preorder">
+                                    <label for="Additional">If you have any additional notes about this order, please write:</label>
+                                    <textarea name="Additional" id="Additional" placeholder="I want to ask..."></textarea>
+                                </div>
+                            </div>
+                            <div class="privacy-consent-preorder">
+                                <label for="Privacy" class="hover-privacy-preorder">I have read and accept the <i class="privacy-policy-hover" data-tip="As for now we do not have any privacy policy whatsoever 😉">privacy policy:</i></label>
+                                <!-- <div class="Extra-Text">
+                                    <p>
+                                    As for now we do not have any privacy policy whatsoever 😉
+                                    </p>
+                                </div> -->
+                                <input type="checkbox" id="Privacy" required>
+                            </div>
+                            <button class="preorder-button__preorder">PREORDER</button>
+                        </form>
+                        <div class="image-preorder__wrapper"><img src="img/Bob46Preorder.svg" alt="drone" loading="lazy"></div>
+                    </div>
+                    
+                <!-- </div> -->
+            </section>
+        </div>
+        <footer id="Footer">
+            <div class="footer__wrapper">
+                <div class="left-part__footer">
+                    <div class="footer-h4-form__wrapper">
+                        <h4>Want To Subscribe To The Newsletters?</h4>
+                        <form action="#" class="subscribe-form__footer">
+                            <label for="EnterEmail">Enter Your E-Mail:</label>
+                            <input type="email" placeholder="example@gmail.com..." autocomplete="on" id="EnterEmail" required>
+                            <button class="confirm-email-subscription__footer">Confirm</button>
+                        </form>
+                    </div >
+                    <div class="cards-footer__wrapper">
+                        <div><img src="./img/visa.png" alt="visa" loading="lazy"></div>
+                        <div><img src="./img/master.png" alt="visa" loading="lazy"></div>
+                        <div><img src="./img/PayPal.png" alt="visa" loading="lazy"></div>
+                        <div><img src="./img/Maestro.png" alt="visa" loading="lazy"></div>
+                        <div><img src="./img/paypal_later.png" alt="visa" loading="lazy"></div>
+                    </div>
+                    <p>Copyright © <span class="year-copyrights-update">2024 </span>EliDrones Ltd. All Rights Reserved.</p>
+                </div>
+                <div class="middle-part__footer">
+                    <div class="logo"><img src="img/LogoWhite.svg" alt="logo"></div>
+                </div>
+                <div class="right-part__footer">
+                    <p class="footer-email-office">E-Mail:</p>
+                    <p>support.elidrone@gmail.com</p>
+                    <p class="footer-hours-office">Office Hours:</p>
+                    <p>Mon-Fri 9:00 to 18:00 (GMT-6)</p>
+                    <p class="footer-number-office">Contact Number:</p>
+                    <p>+1 752-4285-974</p>
+                    <p class="footer-address-office">Address:</p>
+                    <p>W Wacker Dr, Chicago, IL 60654, USA</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
