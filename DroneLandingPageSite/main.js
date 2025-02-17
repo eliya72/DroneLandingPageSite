@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 // import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 // import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from '/three/examples/jsm/loaders/GLTFLoader.js';
 // import fileUrl from './public/DroneLandingPage/bob46.gltf';
 
 let container = document.querySelector(".image-drone-main__wrapper");
