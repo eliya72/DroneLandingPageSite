@@ -53,7 +53,7 @@ let clock = new THREE.Clock();
 const loader = new GLTFLoader();
 
 
-loader.load('/DroneLandingPage/bob46.gltf', (gltf) => {
+loader.load('DroneLandingPage/bob46.gltf', (gltf) => {
     model = gltf.scene;
     scene.add(model);
 
@@ -73,7 +73,7 @@ loader.load('/DroneLandingPage/bob46.gltf', (gltf) => {
     console.error("Error loading model:", error);
 });
 
-loader.load('/DroneLandingPage/bob46.gltf', (gltf) => {
+loader.load('DroneLandingPage/bob46.gltf', (gltf) => {
     model2 = gltf.scene;
     scene2.add(model2);
 
