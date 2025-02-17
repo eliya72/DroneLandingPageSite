@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  build: {
-    outDir: 'dist',
-    rollupOptions: {
-      external: ['three'], 
+  resolve: {
+    alias: {
+      'three': '/node_modules/three/build/three.module.js',
     },
   },
 });
